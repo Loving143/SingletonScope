@@ -1,3 +1,4 @@
+**Singleton Scope**
 It is the default scope in spring applications .
 If we use this scope to the bean then IOC Container will create Single Bean object for single bean definitions in Spring config file .
 This approach will return the same bean object for every time requesting the bean object .
