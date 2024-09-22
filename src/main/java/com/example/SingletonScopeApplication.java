@@ -18,8 +18,6 @@ ApplicationContext context = new AnnotationConfigApplicationContext(ConfigFile.c
         HelloService helloService1 = context.getBean(HelloService.class);
         HelloService helloService2 = context.getBean(HelloService.class);
         HelloService helloService3 = context.getBean(HelloService.class);
-
-        System.out.println(helloService1.sayHello());
         System.out.println(helloService1);
         System.out.println(helloService2);
         System.out.println(helloService3);
